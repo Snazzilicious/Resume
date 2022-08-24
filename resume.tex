@@ -1,0 +1,163 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.5in,top=0.6in,right=0.5in,bottom=0.6in]{geometry} % Document margins
+
+\usepackage{textcomp}
+\usepackage{array}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Ian Holloway} % Your name
+\address{5034 Worchester Dr. Apt C, Riverside OH, 45431} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(260) 435-0673 \\ iancholloway@gmail.com} % Your phone number and email
+
+\begin{document}
+
+
+
+\begin{rSection}{Citizenship}
+US Citizen
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Wright State University} - Dayton, OH \hfill {\em August 2016 - December 2019} 
+\\ Ph.D - Interdisciplinary Applied Science and Math \hfill {GPA: 3.97}
+\\ Thesis Title: Supersonic Euler and Magnetohydrodynamic Flow Past Cones\\
+\\{\bf Cedarville University} - Cedarville, OH \hfill {\em August 2012 - May 2016} 
+\\ Major: Physics B.S. \hfill { GPA: 3.83 }
+\\ Minor: Computer Science, Math \smallskip \\
+Awards: \\ National Merit Scholar | Academic Excellence Scholarship | Heyd Math/Science award | Math/Science Department award
+
+
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{AFIT - Dayton, OH}{September 2019-Present}{Research Contractor}{}
+\item Investigating the use of Machine learning to accelerate the simulation of the Boltzmann equation, and for defect detection in synthesized materials. 
+\item TensorFlow and Keras were the main resources for developing the models.
+\end{rSubsection}
+
+\begin{rSubsection}{Applied Optimization - Dayton, OH}{2015-2017}{Applied Math Intern}{}
+\item Worked in computational modeling of thermal fluids with application to additive manufacturing.
+\item Developed a Genetic Algorithm to fit models to data.
+\item Validated simulation results against physical experiments.
+\item Developed root finding algorithms to create a pseudo inverse for simulations.
+\item Applied dimensionless analysis to simulation results to determine scaling relationships.
+\item Developed C++, Python, and Visual Basic programs to automate data analysis.
+\item Wrote portions of Quarterly reports to contractors and customers.
+\item Employed version control techniques, mainly Git.
+\item Structured and commented code so it could easily be reviewed by peers.
+\end{rSubsection}
+
+\begin{rSubsection}{Wabash Technologies - Huntington, IN}{Summer 2013}{Electrical Engineering Intern}{}
+\item Documented and improved the software for a pedal testing apparatus.
+\item Assisted with DFMEA.
+\item Wrote macros to enhance and automate the test data/spreadsheet management system.
+\end{rSubsection}
+
+\begin{rSubsection}{Wright State Univeristy - Dayton, OH}{2020-Present}{Adjunct Professor of Mathematics}{}
+\item Differential Equations with Matrix Algebra.
+\end{rSubsection}
+
+\begin{rSubsection}{Heartsong Ministries - Cedarville, OH}{2013-2014}{Electric Bass}{}
+\item Played bass for a traveling ministry team.
+\item Led Bible studies and orchestrated camp activities.
+\item Promoted Cedarville University for the Admissions Department
+\end{rSubsection}
+
+
+
+\end{rSection}
+
+%SKILLS
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Applied Math & Numerical Simulation, Gradient Descent, Genetic Algorithms, Machine Learning \\
+Software & MS Office, Latex, ParaView \\
+Programming & C++, Python, Java, Matlab, Linux, Labview, Bash scripting \\
+Areas of Expertise & CFD, Newtonian Mechanics, Euler equations, Ideal MHD, Boltzmann equation \\
+Other & Mig Welding
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Classes}
+
+{\bf Graduate}\\
+\begin{tabular}{ m{15em} m{15em} m{15em} }
+Mathematical Modeling & Optimization Techniques	& Applied Mathematics \\
+Scientific Computing & Numerical Analysis & Computational Statistics \\
+Real Analysis & Hypersonic Flows & Stochastic Processes\\
+\end{tabular}
+
+{\bf Undergraduate}\\
+\begin{tabular}{ m{15em} m{15em} m{15em} }
+Calculus I, II, and III & Computational Physics & Physics I, II, and III \\
+Quantum Mechanics & Thermal Physics & Data Structures Using Java \\
+Acoustics & Theoretical Mechanics & Linear Algebra \\
+Differential Equations & Prob. And Stats & Algorithms \\
+Int. and Adv. Physics Lab  & C++ & Foundations of Computer Security
+\end{tabular}
+
+\end{rSection}
+
+
+%    Projects And Seminars
+
+\begin{rSection}{Projects}
+{\bf Dissertation research}
+\\Used tools from tensor calculus to derive the Euler and Ideal MHD equations in a curved coordinate system subject to the assumption of conical invariance. Then developed a numerical method to solve the systems. \\
+\\{\bf Stock Market Analysis}\\
+Developed a package of C++, Python, and Bash programs to download and analyze stock market data from Yahoo Finance, then make predictions. The analysis involved a DFT to capture cycles in the data.\\
+\\{\bf Raspberry Pi Light Board}\\
+Developed C++ software to make a Raspberry Pi into a usable light board for Concordia High School\textquotesingle s auditorium, allowing presets to be saved and for the lights to be controlled wirelessly.\\
+\\{\bf R/C Plane Builds}\\
+Designed and built multiple remote controlled airplanes looking for design improvements for better flight stability, crash resistance, etc.
+
+
+
+\end{rSection}
+
+
+
+\end{document}
+
