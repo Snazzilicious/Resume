@@ -1,0 +1,12 @@
+
+finish RRI experience
+
+Expand skills section
+	detail scripting / automation (regex)
+	Python C/C++ extensions for computationally intense sections
+	Statistical learning: Bayes Thm, EM, Rigorous AI
+	setting up a linux environment: aliases, PATHs
+	Numerical linear algebra: MPI/OMP, OOC, HPC programming
+	include Meth of Mom
+	include multi-scale perturbation in more detail (if that happens)
+	
