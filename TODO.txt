@@ -1,7 +1,11 @@
 
 finish RRI experience
+	include SC conferences
 
 Expand skills section
+	algorithm design
+		conciseness
+		evaluation of available tools
 	detail scripting / automation (regex)
 	Python C/C++ extensions for computationally intense sections
 	Statistical learning: Bayes Thm, EM, Rigorous AI
@@ -9,4 +13,6 @@ Expand skills section
 	Numerical linear algebra: MPI/OMP, OOC, HPC programming
 	include Meth of Mom
 	include multi-scale perturbation in more detail (if that happens)
-	
+	asymptotics
+	hybrid method
+	sprint, quarterly, final reviews
