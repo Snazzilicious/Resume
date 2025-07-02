@@ -16,3 +16,9 @@ Expand skills section
 	asymptotics
 	hybrid method
 	sprint, quarterly, final reviews
+
+Get to know me section
+	bikes
+	planes
+	trapshooting
+	bass?
