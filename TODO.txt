@@ -1,24 +1,39 @@
 
-finish RRI experience
-	include SC conferences
 
-Expand skills section
-	algorithm design
-		conciseness
-		evaluation of available tools
-	detail scripting / automation (regex)
-	Python C/C++ extensions for computationally intense sections
-	Statistical learning: Bayes Thm, EM, Rigorous AI
-	setting up a linux environment: aliases, PATHs
-	Numerical linear algebra: MPI/OMP, OOC, HPC programming
-	include Meth of Mom
-	include multi-scale perturbation in more detail (if that happens)
-	asymptotics
-	hybrid method
-	sprint, quarterly, final reviews
 
-Get to know me section
-	bikes
-	planes
-	trapshooting
-	bass?
+
+
+%\begin{rSection}{Personal Projects}
+
+%{\bf Dissertation research}
+%\\Used tools from tensor calculus to derive the Euler and Ideal MHD equations in a curved coordinate system
+%subject to the assumption of conical invariance. Then developed a numerical method to solve the systems. \\
+%\\{\bf Raspberry Pi Light Board}\\
+%Developed C++ software to make a Raspberry Pi into a lighting control board for my high school\textquotesingle s auditorium,
+%allowing presets to be saved and for the lights to be controlled wirelessly.\\
+%\\{\bf R/C Plane Builds}\\
+%Designed and built multiple remote controlled airplanes. Arduino, 3D printing, soldering.
+
+%\end{rSection}
+
+
+\begin{rSection}{Classes}
+ 
+{\bf Graduate}\\
+\begin{tabular}{ m{15em} m{15em} m{15em} }
+Mathematical Modeling & Optimization Techniques        & Applied Mathematics \\
+Scientific Computing & Numerical Analysis & Computational Statistics \\
+Real Analysis & Hypersonic Flows & Stochastic Processes\\
+\end{tabular}
+ 
+{\bf Undergraduate}\\
+\begin{tabular}{ m{15em} m{15em} m{15em} }
+Calculus I, II, and III & Computational Physics & Physics I, II, and III \\
+Quantum Mechanics & Thermal Physics & Data Structures Using Java \\
+Acoustics & Theoretical Mechanics & Linear Algebra \\
+Differential Equations & Prob. And Stats & Algorithms \\
+Int. and Adv. Physics Lab  & C++ & Foundations of Computer Security
+\end{tabular}
+ 
+\end{rSection}
+
